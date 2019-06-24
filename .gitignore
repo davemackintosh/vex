@@ -1,0 +1,8 @@
+# I don't want to distribute other's work.
+# There are lots of great places to find lovely wallpapers.
+# I find NASA's photography lovely to use as wallpapers
+# Unsplash has royalty free HD photos you can use also.
+wallpapers/*
+
+# Ctags
+tags
