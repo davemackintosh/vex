@@ -22,7 +22,7 @@ beautiful.init("~/.config/awesome/themes/vex/theme.lua")
 
 ## My .dotfiles
 
-You can find more about my setup in my [dotfiles repo.](https://github.com/davemackintosh/dotfiles)
+You can find more about my setup in my [dotfiles repo.](https://github.com/davemackintosh/dotfiles/blob/master/.config/awesome/rc.lua)
 
 It contains all the hot keys I use, the varying other things I have set up to make Awesome work the way I like it to.
 
