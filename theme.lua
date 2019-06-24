@@ -68,7 +68,11 @@ theme.tasklist_disable_icon = true
 
 -- Pretty
 theme.useless_gap = vars.windowMargin
-theme.wallpaper = vars.wallpaper
+if string.sub(vars.wallpaper, 1, 1) == "#" then
+  gears.wallpaper.set(vars.wallpaper)
+else
+  theme.wallpaper = vars.wallpaper
+end
 
 -- Add the notification styles.
 theme = gears.table.join(theme, notificationStyles)
