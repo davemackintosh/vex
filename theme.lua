@@ -57,13 +57,13 @@ theme.fg_focus      = vars.typographyColours.light
 theme.fg_urgent     = vars.typographyColours.urgent
 theme.fg_minimize   = vars.typographyColours.normal
 
-theme.border_width  = dpi(4)
-theme.border_normal = vars.colourPalette[6]
-theme.border_focus  = vars.colourPalette[5]
+theme.border_width  = dpi(5)
+theme.border_normal = vars.colourPalette[1]
+theme.border_focus  = vars.colourPalette[9]
 theme.border_marked = vars.colourPalette[2]
 
 -- Task list
-theme.tasklist_plain_task_name = true
+theme.tasklist_plain_task_name = false
 theme.tasklist_disable_icon = true
 
 -- Pretty
@@ -86,7 +86,7 @@ awful.screen.connect_for_each_screen(function(s)
   -- are only actually two bars (there are 3 parts)
   s.mypromptbox = awful.widget.prompt({
     bg_cursor = vars.typographyColours.cursor,
-    fg = vars.typographyColours.normal,
+    fg = vars.typographyColours.bright,
     font = vars.typography.mainFont,
   })
 

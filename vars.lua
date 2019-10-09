@@ -5,7 +5,7 @@ local sysTheme = xresources.get_current_theme()
 local inspect = require("inspect")
 local vars = {}
 
-vars.wallpaper = thisDir .. "/wallpapers/pink.jpg"
+vars.wallpaper = "~/Downloads/papers.co-aq83-nature-anime-art-sea-art-36-3840x2400-4k-wallpaper.jpg"
 
 vars.windowMargin = 7
 
@@ -28,7 +28,7 @@ table.insert(vars.colourPalette, sysTheme.foreground)
 vars.typography = {}
 
 -- Primary font face.
-vars.typography.mainFontFamily = "Fira Code"
+vars.typography.mainFontFamily = "Iosevka"
 vars.mainFont = vars.typography.mainFontFamily .. " 11"
 
 -- Secondary font face.
