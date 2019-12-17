@@ -13,7 +13,7 @@ local function wiBarMargin(widget)
 end
 
 local function iconMargin(imageWidget)
-  return wibox.container.margin(imageWidget, 2, 2, 2, 2)
+  return wibox.container.margin(imageWidget, 8, 8, 8, 8)
 end
 
 return {

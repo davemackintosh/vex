@@ -19,6 +19,7 @@ brightnessWidget.widget = wibox.widget {
 }
 
 function brightnessWidget.incBrightness()
+  print "INC"
   awful.spawn.easy_async_with_shell(increaseBrightnessCmd, function()
     brightnessWidget:updateIcon()
   end)

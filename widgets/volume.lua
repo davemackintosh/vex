@@ -1,5 +1,4 @@
 local awful = require("awful")
-local watch = awful.widget.watch
 local wibox = require("wibox")
 local markup = require("lain.util.markup")
 local vars = require("vars")

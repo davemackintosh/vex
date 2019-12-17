@@ -5,9 +5,10 @@ local sysTheme = xresources.get_current_theme()
 local inspect = require("inspect")
 local vars = {}
 
-vars.wallpaper = "~/Downloads/papers.co-aq83-nature-anime-art-sea-art-36-3840x2400-4k-wallpaper.jpg"
+-- vars.wallpaper = "~/Downloads/white-wallpaper.jpeg"
+vars.wallpaper = "#2e3440"
 
-vars.windowMargin = 7
+vars.windowMargin = 14
 
 -- Used throughout the theme.
 vars.themeRoot = thisDir
@@ -46,6 +47,8 @@ vars.typographyColours = {
 }
 
 vars.icons = {
+  vpnOn = iconBase .. "lock-24px.svg",
+  vpnOff = iconBase .. "lock_open-24px.svg",
   batteryFull = iconBase .. "baseline-battery_full-24px.svg",
   battery20 = iconBase .. "baseline-battery_20-24px.svg",
   battery50 = iconBase .. "baseline-battery_50-24px.svg",

@@ -33,6 +33,7 @@ local powerlineBarWidget = require(".widgets.powerline-widgets")
 local taglistWidget = require("widgets.taglist")
 local volumeWidget = require("widgets.volume")
 local brightnessWidget = require("widgets.brightness")
+local vpnWidget = require("widgets.vpn")
 --local systemUpdatesWidget = require("widgets.updates")
 
 -- Other stuff. These are found {themeDirectory}/tools
@@ -94,7 +95,8 @@ awful.screen.connect_for_each_screen(function(s)
   s.mywibox = awful.wibar({ 
     position = "top", 
     screen = s,
-    bg = "00000000"
+    bg = "00000000",
+    -- height = 5,
   })
 
   -- Add widgets to the wibox
@@ -107,7 +109,7 @@ awful.screen.connect_for_each_screen(function(s)
         batteryWidget.widget,
         brightnessWidget.widget,
         volumeWidget.widget,
-        --systemUpdatesWidget.widget,
+        vpnWidget.widget,
         netWidget,
       })
   }
